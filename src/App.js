@@ -3,7 +3,7 @@ import { View } from "react-native";
 
 import Parte,{Parte1,Parte2} from './components/Primeiro'
 
-function App(){
+export default () => {
     return(
         <View>
             <Parte/>
@@ -13,4 +13,3 @@ function App(){
     )
 }
 
-export default App
